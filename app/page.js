@@ -250,7 +250,7 @@ export default function Home() {
     <div>
       <h1 className="font-bold text-2xl text-center mt-6">Dynamits Delivery Order</h1>
     </div>
-    <div className="min-h-screen w-full flex items-center justify-center py-10 gap-16">
+    <div className="min-h-screen w-full flex flex-col md:flex-row items-center justify-center py-10 gap-16">
       <Form {...form}>
         <form
           onSubmit={form.handleSubmit(handleSubmit)}
